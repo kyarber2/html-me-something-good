@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, {
 	display: block;
 }
 
@@ -50,6 +50,7 @@ table {
 
 #articleContainer{
     text-align: center;
+    margin: 10px, 30px, 10px, 30px;
 }
 
 article{
@@ -64,11 +65,13 @@ body{
     font-weight: 400;
     font-size: 16px;
     align-content: center;
+    margin: 50px 100px;
+    background-color: #f2f3f5;
 }
 figure{
     padding: 20px;
     margin: 5px;
-    width: 50%;
+    width: 100%;
 }
 
 figcaption{
@@ -78,8 +81,8 @@ figcaption{
 p{
     text-align: justify;
     text-justify: inter-word;
-    padding: 10px;
-    width: 35%;
+    padding: 20px;
+    width: 100%;
     line-height: 140%;
 }
 
@@ -92,10 +95,11 @@ nav{
     margin-bottom: 15px;
 }
 
-body{
-    margin: 50px 100px;
-}
-
 li{
     padding: 5px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
