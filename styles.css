@@ -104,3 +104,8 @@ img {
     height: auto;
     border-radius: 8px;
   }
+
+  .stop{
+      font-weight: bold;
+      
+  }
